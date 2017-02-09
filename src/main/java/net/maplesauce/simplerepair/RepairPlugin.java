@@ -21,6 +21,7 @@ public class RepairPlugin extends JavaPlugin {
             }
             repairAll(player);
             player.sendMessage(ChatColor.GREEN + "You have repaired your tools and armor!");
+            return true;
         }
         return false;
     }
